@@ -68,3 +68,19 @@ section h2 {
 .about {
     background: linear-gradient(to right top, #8bf445, #99cf1b);
 }
+
+.burger {
+    position: absolute;
+    z-index: -2;
+    transform: scale(2);
+    background: linear-gradient(to right top, #f46b45, #eea849);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
