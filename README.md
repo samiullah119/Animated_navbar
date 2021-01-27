@@ -5,7 +5,7 @@ A Tiny JavaScript Documentation for beginners in the langauge
 
 ![Email Validaiton](images/demoAnimate.png )
 ## Live Demo
-[go live](https://samiullah119.github.io/Animated_navbar)
+[go live](https://samiullah119.github.io/Animated_navbar/)
 
 
 ## Built With
