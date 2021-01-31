@@ -1,10 +1,10 @@
 const sections = document.querySelectorAll('section');
 const burger = document.querySelector('.burger');
 const gradients = [
-    "background: linear-gradient(to right top, #f46b45, #eea849)",
-    "background: linear-gradient(to right top, #005c97, #363795)",
-    "background: linear-gradient(to right top, #e53935, #e35d5b)",
-    "background: linear-gradient(to right top, #8bf445, #99cf1b)"
+    "linear-gradient(to right top, #f46b45, #eea849)",
+    "linear-gradient(to right top, #8bf445, #99cf1b)",
+    "linear-gradient(to right top, #005c97, #363795)",
+    "linear-gradient(to right top, #e53935, #e35d5b)"    
 ];
 
 
@@ -17,7 +17,7 @@ function navCheck(entries) {
     entries.forEach(entry => {
         const className = entry.target.className;
         const activeAnchor = document.querySelector(`[data-page=${className}]`);
-        const gradientIndex = entry.target.getAttribute(`data-index`);
+        const gradientIndex = parseInt(entry.target.getAttribute(`data-index`));
         const coords = activeAnchor.getBoundingClientRect();
         const directions = {
             height: coords.height,
